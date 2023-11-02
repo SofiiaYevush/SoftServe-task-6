@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  :root {
+:root {
     scroll-behavior: smooth;
 }
 
-.container {
-    max-width: 1200px;
-    margin: auto;
-  }
+#list {
+  font-size: 20px;
+  margin: 5px;
+  font-family: 'Open Sans', sans-serif;
+  color: darkgreen;
+}
