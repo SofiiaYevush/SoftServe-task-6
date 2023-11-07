@@ -1,11 +1,9 @@
-const head = document.head;
-
 const body = document.createElement('body');
-head.after(body);
+document.documentElement.appendChild(body);
 
 const main = document.createElement('main');
 main.classList = 'mainClass check item';
-body.append(main);
+body.appendChild(main);
 
 const div = document.createElement('div');
 div.id = 'myDiv';
