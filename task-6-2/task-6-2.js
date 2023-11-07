@@ -1,10 +1,11 @@
 const h1 = document.querySelector('h1');
 h1.style.backgroundColor = '#90EE90';
 
-const firstParagraph = document.querySelector('#myDiv p:first-child');
-const secondParagraph = document.querySelector('#myDiv p:nth-child(2)');
-const thirdParagraph = document.querySelector('#myDiv p:nth-child(3)');
-const fourthParagraph = document.querySelector('#myDiv p:last-child');
+const paragraphs = document.querySelectorAll('#myDiv p');
+const firstParagraph = paragraphs[0];
+const secondParagraph = paragraphs[1];
+const thirdParagraph = paragraphs[2];
+const fourthParagraph = paragraphs[3];
 
 firstParagraph.style.fontWeight = 'bold';
 secondParagraph.style.color = 'red';
